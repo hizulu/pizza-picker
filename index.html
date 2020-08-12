@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Pizza App</title>
+</head>
+
+<body>
+    <div class="container">
+        <section id="pizza">
+            <h2>Pizza</h2>
+            <div id="pizza-list">
+                <p>Pizza will appear here</p>
+            </div>
+        </section>
+
+        <section id="size">
+            <h2>Size</h2>
+            <div class="d-flex">
+                <div class="mr-8"><input type="radio" name="size" onchange="getSelectedSize()" value="-1" id=""> Small
+                    (-$1)
+                </div>
+                <div class="mr-8"><input type="radio" name="size" checked onchange="getSelectedSize()" value="0" id="">
+                    Medium
+                </div>
+                <div class="mr-8"><input type="radio" name="size" onchange="getSelectedSize()" value="2" id=""> Large
+                    (+$2)
+                </div>
+            </div>
+        </section>
+
+        <section id="topping">
+            <h2>Topping</h2>
+            <div id="toppings">
+                <p>Topping(s) will appear here</p>
+            </div>
+
+        </section>
+
+        <section id="price">
+            <h2>Total Price</h2>
+            <h1 id="total-price">$20</h1>
+        </section>
+    </div>
+</body>
+<script src="js/app.js"></script>
+
+</html>

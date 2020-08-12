@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.container {
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+body {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pizza-list {
+    margin-top: 16px;
+    display: flex;
+}
+
+.card {
+    border: 1px solid black;
+    margin-right: 8px;
+}
+
+.card-body {
+    display: block;
+    padding: 8px;
+}
+
+.pizza-price {
+    margin-bottom: 0;
+}
+
+.pizza-name {
+    margin-top: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.topping-item {
+    flex-basis: 20%;
+}
+
+#price h1 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.unavailable {
+    text-decoration: line-through;
+}
